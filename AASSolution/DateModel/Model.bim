@@ -95,6 +95,13 @@
             "name": "Fiscal Year",
             "dataType": "int64",
             "sourceColumn": "FiscalYear"
+          },
+          {
+            "type": "calculated",
+            "name": "Calculated Column",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "expression": "DimDate[FiscalQuarter] & \" - \" & DimDate[Fiscal Year]"
           }
         ],
         "partitions": [
