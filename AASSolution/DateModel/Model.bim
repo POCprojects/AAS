@@ -48,16 +48,6 @@
             "sourceColumn": "EnglishDayNameOfWeek"
           },
           {
-            "name": "SpanishDayNameOfWeek",
-            "dataType": "string",
-            "sourceColumn": "SpanishDayNameOfWeek"
-          },
-          {
-            "name": "FrenchDayNameOfWeek",
-            "dataType": "string",
-            "sourceColumn": "FrenchDayNameOfWeek"
-          },
-          {
             "name": "DayNumberOfMonth",
             "dataType": "int64",
             "sourceColumn": "DayNumberOfMonth"
@@ -76,16 +66,6 @@
             "name": "EnglishMonthName",
             "dataType": "string",
             "sourceColumn": "EnglishMonthName"
-          },
-          {
-            "name": "SpanishMonthName",
-            "dataType": "string",
-            "sourceColumn": "SpanishMonthName"
-          },
-          {
-            "name": "FrenchMonthName",
-            "dataType": "string",
-            "sourceColumn": "FrenchMonthName"
           },
           {
             "name": "MonthNumberOfYear",
