@@ -92,7 +92,7 @@
             "sourceColumn": "FiscalQuarter"
           },
           {
-            "name": "FiscalYear",
+            "name": "Fiscal Year",
             "dataType": "int64",
             "sourceColumn": "FiscalYear"
           }
