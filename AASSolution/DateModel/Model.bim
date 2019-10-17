@@ -16,7 +16,6 @@
           "authentication": null,
           "query": null
         },
-        "options": {},
         "credential": {
           "AuthenticationKind": "ServiceAccount",
           "EncryptConnection": false
@@ -48,16 +47,6 @@
             "sourceColumn": "EnglishDayNameOfWeek"
           },
           {
-            "name": "SpanishDayNameOfWeek",
-            "dataType": "string",
-            "sourceColumn": "SpanishDayNameOfWeek"
-          },
-          {
-            "name": "FrenchDayNameOfWeek",
-            "dataType": "string",
-            "sourceColumn": "FrenchDayNameOfWeek"
-          },
-          {
             "name": "DayNumberOfMonth",
             "dataType": "int64",
             "sourceColumn": "DayNumberOfMonth"
@@ -76,16 +65,6 @@
             "name": "EnglishMonthName",
             "dataType": "string",
             "sourceColumn": "EnglishMonthName"
-          },
-          {
-            "name": "SpanishMonthName",
-            "dataType": "string",
-            "sourceColumn": "SpanishMonthName"
-          },
-          {
-            "name": "FrenchMonthName",
-            "dataType": "string",
-            "sourceColumn": "FrenchMonthName"
           },
           {
             "name": "MonthNumberOfYear",
@@ -116,11 +95,6 @@
             "name": "FiscalYear",
             "dataType": "int64",
             "sourceColumn": "FiscalYear"
-          },
-          {
-            "name": "FiscalSemester",
-            "dataType": "int64",
-            "sourceColumn": "FiscalSemester"
           }
         ],
         "partitions": [
